@@ -1,102 +1,99 @@
 body {
-	background: #22022c;
-	padding: 50px 0 0 0;
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
+  background: #22022c;
+  padding: 50px 0 0 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
-	font-family: 'cursive';
-	color: #e6d7d7ec;
-	text-transform: uppercase;
-	font-weight: 800;
-	
+  font-family: "cursive";
+  color: #e6d7d7ec;
+  text-transform: uppercase;
+  font-weight: 800;
 }
 
-.row p{
-	font-family:'Cambria, Cochin', Georgia, Times, 'Times New Roman', serif;
-	font-size: 15px;
-	font-weight:300;
-	color: #bdf8a6;
-	margin-bottom: 30px;
-	padding: 30px;
+.row p {
+  font-family: "Cambria, Cochin", Georgia, Times, "Times New Roman", serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #bdf8a6;
+  margin-bottom: 30px;
+  padding: 30px;
 }
 
 #enter {
-	border: none;
-	padding: 5px 15px;
-	border-radius: 5px;
-	color: #989c9c;
-	background-color: #025F70;
-	transition: all 0.75s ease;
-	-webkit-transition: all 0.75s ease;
-	-moz-transition: all 0.75s ease;
-	-ms-transition: all 0.75s ease;
-	-o-transition: all 0.75 ease;
-	font-weight: normal;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: #989c9c;
+  background-color: #025f70;
+  transition: all 0.75s ease;
+  -webkit-transition: all 0.75s ease;
+  -moz-transition: all 0.75s ease;
+  -ms-transition: all 0.75s ease;
+  -o-transition: all 0.75 ease;
+  font-weight: normal;
 }
-.list input{
-	height: 35px;
+.list input {
+  height: 35px;
 }
-.list button{
-	width: 50px;
+.list button {
+  width: 50px;
 }
-#enter:hover{
-	background-color: #6fbdca;
-	color: #9e8d67;
+#enter:hover {
+  background-color: #6fbdca;
+  color: #9e8d67;
 }
 
 ul {
-	text-align: left;
-	display:inline;
-	justify-content: center;
-	
+  text-align: left;
+  display: inline;
+  justify-content: center;
 }
 li {
-	width: 80%;
-	margin: auto; 
-	padding: 10px;
-	color: #000000;
-	text-transform: capitalize;
-	font-weight: 600;
-	border: 2px solid #510270;
-	box-shadow:3px 3px 5px #813188;
-	border-radius: 5px;
-	margin-bottom: 10px;
-	background: #977494;
-	transition: all 0.2s ease;
-	-webkit-transition: all 0.1s ease;
-	-moz-transition: all 0.1s ease;
-	-ms-transition: all 0.1s ease;
-	-o-transition: all 0.1s ease;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  color: #000000;
+  text-transform: capitalize;
+  font-weight: 600;
+  border: 2px solid #510270;
+  box-shadow: 3px 3px 5px #813188;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background: #977494;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
 }
 
 li:hover {
-	background:#80567b;
+  background: #80567b;
 }
 
 li > button {
-	font-weight: normal;
-	background: none;
-	border: none;
-	float: right;
-	color: #720303;
-	font-weight: 800;
+  font-weight: normal;
+  background: none;
+  border: none;
+  float: right;
+  color: #720303;
+  font-weight: 800;
 }
 
 input {
-	border-radius: 5px;
-	min-width: 65%;
-	padding: 10px;
-	border: none;
+  border-radius: 5px;
+  min-width: 65%;
+  padding: 10px;
+  border: none;
 }
 
-
 .done {
-	background: #804e7a !important;
-	color: #1b0422;
+  background: #804e7a !important;
+  color: #1b0422;
 }
 
 .delete {
-	display: none;
+  display: none;
 }
