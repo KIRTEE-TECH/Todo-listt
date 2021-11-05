@@ -48,20 +48,14 @@ h1 {
 
 ul {
 	text-align: left;
-
 	display:inline;
+	justify-content: center;
+	
 }
-
-
 li {
 	width: 80%;
-	display: flex;
-	justify-content: center;
-	text-align:center;
-	align-items: center;
+	margin: auto; 
 	padding: 10px;
-    margin-right:10px;
-	float: left;
 	color: #000000;
 	text-transform: capitalize;
 	font-weight: 600;
